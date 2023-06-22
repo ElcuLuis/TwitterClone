@@ -80,7 +80,6 @@ public class UserService {
          followRepository.save(follow);
     }
 
-
     private final String PASSWORD_PATTERN =
             "^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()–[{}]:;',?/*~$^+=<>]).{8,20}$";
 
